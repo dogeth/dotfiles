@@ -1,4 +1,4 @@
-source ./git-completion.bash
+source ~/.dotfiles/git-completion.bash
 
 # changing directory to code project
 function c { cd ~/code/$1; }
@@ -53,4 +53,4 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export EDITOR='mate -w'
-export PATH=$PATH:~/dotfiles
+export PATH=$PATH:~/.dotfiles
