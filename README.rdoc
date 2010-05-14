@@ -1,0 +1,54 @@
+= Dot Files
+
+My configuration (dotfiles)
+
+
+== Installation
+
+  git clone git@github.com:dogeth/dotfiles.git ~/.dotfiles
+  
+  include the following line in your ~/.bash_profile file:
+  source ~/.dotfiles/profile.bash
+
+== Aliases
+
+=== ls
+
+  ls    # ls -F
+  l     # ls -lAh
+  ll    # ls -l
+  la    # ls -A
+
+=== git
+
+  gl    # git pull
+  gp    # git push
+  gd    # git diff
+  gc    # git commit
+  gca   # git commit -a
+  gco   # git checkout
+  gb    # git branch
+  gs    # git status
+  grm   # git status | grep deleted | awk '{print \$3}' | xargs git rm
+  gcl   # git config --list
+  gcm   # git commit -m
+  ga.   # git add .
+  gph   # git push heroku
+  
+=== Rails
+
+  sc       # script/console
+  ss       # script/server
+  sg       # script/generate
+  a        # autotest
+  tlog     # tail -f log/development.log
+  scaffold # script/generate nifty_scaffold
+  migrate  # rake db:migrate db:test:clone
+  rst      # touch tmp/restart.txt
+
+
+=== misc.
+
+  ..      # cd ..
+  reload  # . ~/.bash_profile
+  h?      # history | grep
