@@ -7,7 +7,7 @@ My configuration (dotfiles)
 
   git clone git@github.com:dogeth/dotfiles.git ~/.dotfiles
   
-  include the following line in your ~/.bash_profile file:
+include the following line in your ~/.bash_profile file:
   source ~/.dotfiles/profile.bash
 
 == Aliases
