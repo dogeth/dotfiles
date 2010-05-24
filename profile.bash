@@ -48,7 +48,7 @@ export HISTCONTROL=ignoreboth
 alias h?="history | grep "
 
 #export PS1="\w$ "
-export PS1='\w$(__git_ps1 " (%s)")\$ '
+export PS1='\w$(__git_ps1 ":%s")\$ '
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
