@@ -40,10 +40,7 @@ include the following line in your ~/.bash_profile file:
   sc       # script/console
   ss       # script/server
   sg       # script/generate
-  a        # autotest
   tlog     # tail -f log/development.log
-  scaffold # script/generate nifty_scaffold
-  migrate  # rake db:migrate db:test:clone
   rst      # touch tmp/restart.txt
 
 
